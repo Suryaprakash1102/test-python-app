@@ -6,6 +6,4 @@
       echo "No tests found, skipping failure."
       exit 0
     fi
-    exit $exit_code
-
-      - run: pytest
+exit $exit_code
