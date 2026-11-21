@@ -1,9 +1,0 @@
-- name: Run pytest
-  run: |
-    pytest
-    exit_code=$?
-    if [ $exit_code -eq 5 ]; then
-      echo "No tests found, skipping failure."
-      exit 0
-    fi
-exit $exit_code
